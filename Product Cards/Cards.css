@@ -1,0 +1,72 @@
+.blocksContainer{
+  height: 800px;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  position: absolute;
+  top: 115%;
+  z-index: 10;
+}
+.homeBlocks{
+  box-sizing: content-box;
+  height: 350px;
+  width: 20%;
+  margin: 15px;
+  background-color: rgb(238, 238, 238);
+  padding: 5px;
+}
+.homeBlocks img{
+  height: calc(100% - 200px);
+  width: 95.5%;
+  margin: 5px;
+  margin-top: 5px;margin-bottom: 5px;
+}
+.homeBlocks h2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+.blockDetail{
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin: 5px;
+}
+.viewBtns{
+  background: red;
+  color: white;
+  height: 42.5px;
+  width: 42.5px;
+  margin-top: 80px;margin-left: 82.5%;
+  border-radius: 30px;
+  overflow: hidden;
+  transition: height .35s, width .35s, margin .35s;
+}
+.viewBtns:hover{
+  margin-top: 75px;margin-left: 81%;
+  height: 50px;
+  width: 50px;
+}
+@keyframes arrowSplitin{
+  0%{margin-left: 0px;}
+  25%{margin-left: 45px;visibility: hidden;}
+  50%{margin-left: -45px; visibility: hidden;}
+  75%{visibility: hidden;background-position: bottom;}
+  100%{margin-left:0px;visibility: visible;}
+}
+.viewIcon{
+  border-radius: 30px;
+  height: inherit;
+  width: inherit;
+  animation-duration: .4s;
+  animation-iteration-count: 1;
+  background-image: url("Pictures/rightViewIcon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.viewBtns:hover .viewIcon{
+  animation-name: arrowSplitin;
+  animation-timing-function: ease-in-out;
+}
