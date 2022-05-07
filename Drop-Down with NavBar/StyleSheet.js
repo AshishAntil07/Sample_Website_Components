@@ -351,3 +351,166 @@ html{
   position: absolute;
   visibility: hidden;
 }
+
+
+
+
+/* icons */
+
+
+
+
+#LAPTOP {
+  border: 1px transparent black;
+  margin: 6px;
+  padding: 13px;
+  margin-right: 7%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  BACKGROUND-IMAGE: URL("Pictures/Laptop.png");
+  transition: padding .2s, margin-right .2s, margin-left .2s;
+}
+#CYCLE {
+  border: 1px transparent black;
+  margin: 6px;
+  padding: 13px;
+  margin-right: 7%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  BACKGROUND-IMAGE: URL("Pictures/Cycle.png");
+  transition: padding .2s, margin-right .2s, margin-left .2s;
+}
+#TABLET {
+  border: 1px transparent black;
+  margin: 6px;
+  padding: 13px;
+  margin-right: 7%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  BACKGROUND-IMAGE: URL("Pictures/Tablet.png");
+  transition: padding .2s, margin-right .2s, margin-left .2s;
+}
+#HEADSET {
+  border: 1px transparent black;
+  margin: 6px;
+  padding: 13px;
+  margin-right: 7%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  BACKGROUND-IMAGE: URL("Pictures/Headphone.png");
+  transition: padding .2s, margin-right .2s, margin-left .2s;
+}
+#PENDRIVE {
+  border: 1px transparent black;
+  margin: 5px;
+  padding: 13px;
+  margin-right: 7%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  BACKGROUND-IMAGE: URL("Pictures/Pendrive.png");
+  transition: padding .2s, margin-right .2s, margin-left .2s;
+}
+#ROUTER {
+  border: 1px transparent black;
+  margin: 6px;
+  padding: 13px;
+  margin-right: 7%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  BACKGROUND-IMAGE: URL("Pictures/Router.png");
+  transition: padding .2s, margin-right .2s, margin-left .2s;
+}
+#SMARTPHONE {
+  border: 1px transparent black;
+  margin: 6px;
+  padding: 13px;
+  margin-right: 7%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  BACKGROUND-IMAGE: URL("Pictures/Smartphone.png");
+  transition: padding .2s, margin-right .2s, margin-left .2s;
+}
+#PTB{
+  border: 1px transparent black;
+  margin: 6px;
+  padding: 8px;
+  margin-right: 7%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  BACKGROUND-IMAGE: URL("Pictures/PTB-DownArrow.png");
+  transition: background-image .2s;
+}
+.Se-icon{
+  border: 1px transparent black;
+  padding: 18px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  BACKGROUND-IMAGE: URL("Pictures/Magnifying Glass.png");
+}
+.registerer-icon{
+  border: 1px transparent black;
+  margin: 6px;
+  padding: 10px;
+  margin-right: 7%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  BACKGROUND-IMAGE: URL("Pictures/JUDownArrow.png");
+}
+
+
+
+
+/* icon satisfier */
+
+
+
+
+
+#space-reducer4:hover #PTB{
+  BACKGROUND-IMAGE: URL("Pictures/PTB-UpArrow.png");
+}
+#icon-satisfier1:hover #LAPTOP {
+  padding: 18px;
+  margin-right: calc(2.2% + 1px);
+  margin-left: 3px;
+}
+#icon-satisfier2:hover #CYCLE {
+  padding: 18px;
+  margin-right: calc(2.2% + 1px);
+  margin-left: 3px;
+}
+#icon-satisfier3:hover #TABLET {
+  padding: 18px;
+  margin-right: calc(2.2% + 1px);
+  margin-left: 3px;
+}
+#icon-satisfier4:hover #HEADSET {
+  padding: 18px;
+  margin-right: calc(2.2% + 1px);
+  margin-left: 3px;
+}
+#icon-satisfier5:hover #PENDRIVE {
+  padding: 18px;
+  margin-right: calc(2.2%);
+  margin-left: 3px;
+}
+#icon-satisfier6:hover #ROUTER {
+  padding: 18px;
+  margin-right: calc(2.2% + 1px);
+  margin-left: 3px;
+}
+#icon-satisfier7:hover #SMARTPHONE {
+  padding: 18px;
+  margin-right: calc(2.2% + 1px);
+  margin-left: 3px;
+}
