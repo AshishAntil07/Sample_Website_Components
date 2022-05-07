@@ -17,7 +17,7 @@ tFAQ.addEventListener("click", () => {
   window.location.href = "location";
 });
 function complexFun(){
-  if(2 % j === 0){
+  if(j % 2 === 0){
     inptDis.style.display = "inline-Block";
     proSearcherDis.style.display = "inline-block";
     widthChanger.style.width = "525px";
@@ -38,7 +38,7 @@ function complexFun(){
 }; 
 
 function childDisplayFun(){
-  if(2 % i === 0){
+  if(i % 2 === 0){
     document.getElementById("displayChild").style.display = "block";
     document.getElementById("regisIconId").style.backgroundImage = 'url("Pictures/JUUpArrowBgBlack.png")';
     // document.getElementById("bgColorSatisfya").style.backgroundColor = "rgba(255, 0, 0)";
