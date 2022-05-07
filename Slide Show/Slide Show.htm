@@ -1,0 +1,108 @@
+<!-- Put the following code in head tag:
+<link rel='stylesheet' href='SlideShow.css'>
+-->
+
+<div class="productSlideShow">
+    <div class="mainSlideShow">
+      <input type="radio" name="slideRadios" id = "sR1" checked>
+      <input type="radio" name="slideRadios" id = "sR2">
+      <input type="radio" name="slideRadios" id = "sR3">
+      <input type="radio" name="slideRadios" id = "sR4">
+      <input type="radio" name="slideRadios" id = "sR5">
+      <input type="radio" name="slideRadios" id = "sR6">
+      <input type="radio" name="slideRadios" id = "sR7">
+      <div class="imagesContainer">
+        <!-- right arrow generations -->
+        <label for = "sR1"class="arrowRight d7" id = "rightArrow1">
+          <img src="Pictures/collageSlideRightArrow.png" height = "100%" width = "75%" align = "right">
+        </label>
+        <label for = "sR2" class="arrowRight d1" id = "rightArrow2">
+          <img src="Pictures/collageSlideRightArrow.png" height = "100%" width = "75%" align = "right">
+        </label>
+        <label for = "sR3" class="arrowRight d2" id = "rightArrow3">
+          <img src="Pictures/collageSlideRightArrow.png" height = "100%" width = "75%" align = "right">
+        </label>
+        <label for = "sR4" class="arrowRight d3" id = "rightArrow4">
+          <img src="Pictures/collageSlideRightArrow.png" height = "100%" width = "75%" align = "right">
+        </label>
+        <label for = "sR5" class="arrowRight d4" id = "rightArrow5">
+          <img src="Pictures/collageSlideRightArrow.png" height = "100%" width = "75%" align = "right">
+        </label>
+        <label for = "sR6" class="arrowRight d5" id = "rightArrow6">
+          <img src="Pictures/collageSlideRightArrow.png" height = "100%" width = "75%" align = "right">
+        </label>
+        <label for = "sR7" class="arrowRight d6" id = "rightArrow7">
+          <img src="Pictures/collageSlideRightArrow.png" height = "100%" width = "75%" align = "right">
+        </label>
+        <!-- right arrow generations closed -->
+  
+        <!-- left arrow generations -->
+        <label for = "sR1" class = "arrowLeft d2" id = "leftArrow1">
+          <img src="Pictures/collageSlideLeftArrow.png" height = "100%" width = "75%">
+        </label>
+        <label for = "sR2" class = "arrowLeft d3" id = "leftArrow2">
+          <img src="Pictures/collageSlideLeftArrow.png" height = "100%" width = "75%">
+        </label>
+        <label for = "sR3" class = "arrowLeft d4" id = "leftArrow3">
+          <img src="Pictures/collageSlideLeftArrow.png" height = "100%" width = "75%">
+        </label>
+        <label for = "sR4" class = "arrowLeft d5" id = "leftArrow4">
+          <img src="Pictures/collageSlideLeftArrow.png" height = "100%" width = "75%">
+        </label>
+        <label for = "sR5" class = "arrowLeft d6" id = "leftArrow5">
+          <img src="Pictures/collageSlideLeftArrow.png" height = "100%" width = "75%">
+        </label>
+        <label for = "sR6" class = "arrowLeft d7" id = "leftArrow6">
+          <img src="Pictures/collageSlideLeftArrow.png" height = "100%" width = "75%">
+        </label>
+        <label for = "sR7" class = "arrowLeft d1" id = "leftArrow7">
+          <img src="Pictures/collageSlideLeftArrow.png" height = "100%" width = "75%">
+        </label>
+        <!-- left arrow generations closed -->
+  
+        <!-- Slide Images -->
+        <div class="imgContainer" id = "firstSlide">
+          <img src="Pictures/homeLaptopSlide.jpg" height = "100%" width = "100%" alt="LaptopSlide">
+        </div>
+        <div class="imgContainer">
+          <img src="Pictures/homeCycleSlide.jpg" height = "100%" width = "100%" alt="CycleSlide">
+        </div>
+        <div class="imgContainer">
+          <img src="Pictures/homeTabletSlide.jpg" height = "100%" width = "100%" alt="TabletSlide">
+        </div>
+        <div class="imgContainer">
+          <img src="Pictures/homeHeadsetSlide.jpg" height = "100%" width = "100%" alt="HeadsetSlide">
+        </div>
+        <div class="imgContainer">
+          <img src="Pictures/homePendriveSlide.jpg" height = "100%" width = "100%" alt="PendriveSlide">
+        </div>
+        <div class="imgContainer bgSatisfier">
+          <img src="Pictures/homeRouterSlide.png" height = "100%" width = "100%" alt="RouterSlide">
+        </div>
+        <div class="imgContainer">
+          <img src="Pictures/homeSmartphoneSlide.jpg" height = "100%" width = "100%" alt="SmartphoneSlide">
+        </div>
+        <!-- Slide Images closed -->
+      </div>
+    </div>
+  </div>
+<script>
+    const radArr = [
+      document.getElementById("sR1"),
+      document.getElementById("sR2"),
+      document.getElementById("sR3"),
+      document.getElementById("sR4"),
+      document.getElementById("sR5"),
+      document.getElementById("sR6"),
+      document.getElementById("sR7"),
+      document.getElementById("sR1")
+    ];
+    let i = 0;
+    setInterval(() => {
+      radArr[i].checked = true;
+      if(i === 7){
+        i = 0;
+      }
+      i++;
+    }, 6000);
+  </script>
