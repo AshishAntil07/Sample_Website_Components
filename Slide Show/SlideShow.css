@@ -1,0 +1,93 @@
+.productSlideShow{
+  width: 100%;
+  height: 645px;
+  background-color: lightgray;
+  overflow: hidden;
+  z-index: 0;
+}
+.mainSlideShow{
+  width: inherit;
+  height: inherit;
+}
+.imagesContainer{
+  width: 700%;
+  height: 100%;
+  overflow: hidden;
+}
+.imgContainer{
+  width: calc(100% / 7);
+  height: 100%;
+  transition: .4s;
+  display: inline-block;
+}
+.imgContainer img{
+  width: 100%;
+  height: 100%;
+}
+.arrowRight, .arrowLeft{
+  width: 125px;
+  height: 140px;
+  position: absolute;
+  margin-top: 18%;
+  display: none;
+  background-color: rgba(165, 165, 165, .25);
+}
+.arrowRight{
+  left: 100%;
+  transform: translate(-100%, 0%);
+}
+input[name="slideRadios"]{
+  position: absolute;
+  display: none;
+}
+.arrowRight:hover, .arrowLeft:hover{
+  background-color: rgba(165, 165, 165, .35);
+}
+.arrowRight:active, .arrowLeft:active{
+  background-color: rgba(165, 165, 165, .4);
+}
+.bgSatisfier{
+  background-color: white;
+}
+#sR1:checked ~ .imagesContainer .d1{
+  display: block;
+}
+#sR2:checked ~ .imagesContainer .d2{
+  display: block;
+}
+#sR3:checked ~ .imagesContainer .d3{
+  display: block;
+}
+#sR4:checked ~ .imagesContainer .d4{
+  display: block;
+}
+#sR5:checked ~ .imagesContainer .d5{
+  display: block;
+}
+#sR6:checked ~ .imagesContainer .d6{
+  display: block;
+}
+#sR7:checked ~ .imagesContainer .d7{
+  display: block;
+}
+#sR1:checked ~ .imagesContainer #firstSlide{
+  margin-left: 0%; 
+}
+#sR2:checked ~ .imagesContainer #firstSlide{
+  margin-left: calc((100% / -7) - 4px); 
+}
+#sR3:checked ~ .imagesContainer #firstSlide{
+  margin-left: calc((100% / -7) - 8px + (100% / -7)); 
+}
+#sR4:checked ~ .imagesContainer #firstSlide{
+  margin-left: calc((100% / -7) - 12px + (200% / -7)); 
+}
+#sR5:checked ~ .imagesContainer #firstSlide{
+  margin-left: calc((100% / -7) - 16px + (300% / -7)); 
+}
+#sR6:checked ~ .imagesContainer #firstSlide{
+  margin-left: calc((100% / -7) - 20px + (400% / -7)); 
+}
+#sR7:checked ~ .imagesContainer #firstSlide{
+  margin-left: calc((100% / -7) - 24px + (500% / -7)); 
+}
