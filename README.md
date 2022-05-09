@@ -12,3 +12,6 @@ Here, you will get some components of a website that you can use in your project
 
 ### 👁️ Preview :-
 Navigation Bar :-
+<div height='500px'>
+  <img src='https://github.com/AshishAntil07/AshishAntil07/blob/SampleWC/navBar.gif'>
+</div>
