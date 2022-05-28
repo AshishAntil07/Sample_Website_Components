@@ -1,6 +1,6 @@
 # Sample Website Components
 Here, you will get some components of a website that you can use in your projects to save your precious time.<br>
-<h4>Note : The web components are not responsive.</h4>
+<h4>Note : The web components are not responsive with mobile phones.</h4>
 <hr>
 
 ### 📄 Instructions :-
