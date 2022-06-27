@@ -1,4 +1,4 @@
-# <img src='https://github.com/AshishAntil07/AshishAntil07/blob/main/4pointedStar.svg' height='25px' width='25px'> Sample Website Components
+<table align='center' border='0'><tr><td><img src='https://github.com/AshishAntil07/AshishAntil07/blob/home/5pointedStar.svg' height='65px' width='65px'></td> <td><h1>Sample Website Components</h1></td></tr></table>
 Here, you will get some components of a website that you can use in your projects to save your precious time.<br>
 <h4>Note : The web components are not responsive with mobile phones.</h4>
 
